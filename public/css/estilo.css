@@ -1,0 +1,171 @@
+/*html{
+    background-color: red;
+}
+.navbar{
+    background-color: yellow;
+}
+#app{
+    background-color: blue;
+}
+.panel-default>.panel-heading{
+    background-color: grey;
+}
+.panel-default{
+    background-color: green;
+}*/
+html{
+    background-color: white;
+}
+html:hover{
+    background-image: url("../image/tenor.gif");
+}
+
+#app{
+    background-color: white;
+
+    transition:2s;
+}
+#app:hover{
+    background-image: url("../image/tenor.gif");
+
+
+}
+.navbar{
+    background-color: whitesmoke;
+    animation-name: navcolorin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes navcolorin {
+    0%   {background-color: whitesmoke;}
+    25%  {background-color: #aeffb1;}
+    50%  {background-color: #bcdaff;}
+    100% {background-color: #ffbab9;}
+}
+@keyframes rotor {
+    0%   {margin-top: 0px;}
+    25%  {margin-top: 30px;}
+    50%  {margin-top: 0px;}
+    100% {margin-top: 30px;}
+}
+
+.panel-default>.panel-heading{
+    font-size: 22px;
+    text-align: center;
+    animation-name: navcolorin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.panel-default{
+    background-color: white;
+}
+dt, kbd kbd, label {
+    font-weight: 100;
+}
+.comida{
+    width:210px;
+    height: 370px;
+    border:1px solid #d3e3e6;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    animation-name: navcolorin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
+.comida:hover{
+    background-color: #e6823f;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.btn {
+    color: black;
+    text-shadow: 1px 1px grey;
+    box-shadow: 1px 1px grey;
+    border:0px;
+    transition: 2s;
+    animation-name: navcolorin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.btn:hover{
+    background-color: orange;
+    text-shadow: 1px 1px black;
+    box-shadow: 0px 0px 5px 3px grey;
+    color: white;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
+#i1{
+    background-image: url("../image/sorpresa.png");
+    background-size: cover;
+    background-position: center;
+    width:200px;
+    height: 300px;
+    margin: auto;
+    transition: 1s;
+    animation-name: rotor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
+#i1:hover{
+    background-image: url("../image/caja.jpg");
+    font-size: 30px;
+    color:red;
+    font-weight: 700;
+}
+#i2{
+    background-image: url("../image/sorpresa.png");
+    background-size: cover;
+    background-position: center;
+    width:200px;
+    height: 300px;
+    margin: auto;
+    transition: 1s;
+    animation-name: rotor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+#i2:hover{
+    background-image: url("../image/caja.jpg");
+    font-size: 30px;
+    color:red;
+    font-weight: 700;
+}
+#i3{
+    background-image: url("../image/sorpresa.png");
+    background-size: cover;
+    background-position: center;
+    width:200px;
+    height: 300px;
+    margin: auto;
+    transition: 1s;
+    animation-name: rotor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+#i3:hover{
+    background-image: url("../image/caja.jpg");
+    font-size: 30px;
+    color:red;
+    font-weight: 700;
+}
+body, a:hover {cursor: url(http://cur.cursors-4u.net/nature/nat-9/nat839.cur), progress !important;}
